@@ -1,8 +1,8 @@
 //
 //  BeatObject.hpp
-//  MusicGameText
+//  HelloWorldDemo
 //
-//  Created by Bin Hu on 08/12/2016.
+//  Created by Bin Hu on 25/02/2017.
 //
 //
 
@@ -10,38 +10,36 @@
 #define BeatObject_hpp
 
 #include "cocos2d.h"
-#include "Common.h"
-#include "VertexSprite.hpp"
 USING_NS_CC;
-
-class BeatObject : public Node {
-    
+enum beatType{
+    SINGLE_CLICK,
+    LONG_TOUCH
+};
+enum beatDirection{
+    LEFT = 0,
+    UP,
+    RIGHT,
+    DOWN
+};
+class BeatObject: public Node
+{
 public:
-    static BeatObject* create (int pType, float pLength = 0);
-    ~BeatObject(){};
-    
-    bool IsBlock();
-    bool IsStrip();
-    
-public: // Setter
-    void setPositionY(float y) override;
-    void setRotation(float rotation) override;
-    
-private:
     BeatObject();
-    bool init(int pType, float pLength = 0);
+    ~BeatObject();
+    static BeatObject* create(beatType type, beatDirection direction);
     
-    // 不允许外部修改BeatObj的坐标
-    void setPosition(const Vec2& position){ Node::setPosition(position); }
-    void setPositionX(float x){ Node::setPositionX(x); }
     
 private:
-    int m_nType;
-    Sprite* m_pHead;
-    Sprite* m_pTail;
-    VertexSprite* m_pBody;
-    float m_fLength;
-    float m_fCurLength;
+    bool init(beatType type, beatDirection direction);
+    void onTouchesBegan(const std::vector<cocos2d::Touch*>& touches, cocos2d::Event  *event);
+    void onTouchesMoved(const std::vector<cocos2d::Touch*>& touches, cocos2d::Event  *event);
+    void onTouchesEnded(const std::vector<cocos2d::Touch*>& touches, cocos2d::Event  *event);
+    beatType m_type;
+    Sprite* m_spr;
+    beatDirection m_beatDirection;
+    beatType m_beatType;
+    
+    
 };
 
 #endif /* BeatObject_hpp */

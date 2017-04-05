@@ -2,8 +2,8 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
-#include "ui/UIVideoPlayer.h"
-#include "ui/CocosGUI.h"
+#include "BeatObject.hpp"
+
 class HelloWorld : public cocos2d::Layer
 {
 public:
@@ -11,20 +11,20 @@ public:
 
     virtual bool init();
     
-    // a selector callback
     void menuCloseCallback(cocos2d::Ref* pSender);
-    
-    // implement the "static create()" method manually
+    void refreshScore(int score);
+    void showGameOver();
+    void restartGame(Ref* pSender);
     CREATE_FUNC(HelloWorld);
-    void videoPlayOverCallback();
-    void onEnter();
-    void showVideo();
-    /**
-     * 视频播放状态，只有在android和ios平台有效
-     */
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID || CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-    void videoEventCallback(Ref* sender, cocos2d::experimental::ui::VideoPlayer::EventType eventType);
+private:
+    void onTouchesBegan(const std::vector<cocos2d::Touch*>& touches, cocos2d::Event  *event);
+    void onTouchesMoved(const std::vector<cocos2d::Touch*>& touches, cocos2d::Event  *event);
+    void onTouchesEnded(const std::vector<cocos2d::Touch*>& touches, cocos2d::Event  *event);
+    void showJudge(beatDirection direction, bool good);
+    cocos2d::Label* m_scoreLabel;
+    cocos2d::Label* m_gameOverLabel;
+    cocos2d::Label* m_restartLabel;
+    cocos2d::Menu* m_restartBlockMenu;
 };
 
 #endif // __HELLOWORLD_SCENE_H__
-#endif

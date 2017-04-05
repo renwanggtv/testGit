@@ -3677,62 +3677,6 @@
 		ED9C6A9518599AD8000A5232 /* CCNodeGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED9C6A9218599AD8000A5232 /* CCNodeGrid.cpp */; };
 		ED9C6A9618599AD8000A5232 /* CCNodeGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9C6A9318599AD8000A5232 /* CCNodeGrid.h */; };
 		ED9C6A9718599AD8000A5232 /* CCNodeGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9C6A9318599AD8000A5232 /* CCNodeGrid.h */; };
-		F6DC6E8F1DDC75DE00BB9172 /* fmod.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E721DDC75DE00BB9172 /* fmod.h */; };
-		F6DC6E901DDC75DE00BB9172 /* fmod.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E721DDC75DE00BB9172 /* fmod.h */; };
-		F6DC6E911DDC75DE00BB9172 /* fmod.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E731DDC75DE00BB9172 /* fmod.hpp */; };
-		F6DC6E921DDC75DE00BB9172 /* fmod.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E731DDC75DE00BB9172 /* fmod.hpp */; };
-		F6DC6E931DDC75DE00BB9172 /* fmod_codec.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E741DDC75DE00BB9172 /* fmod_codec.h */; };
-		F6DC6E941DDC75DE00BB9172 /* fmod_codec.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E741DDC75DE00BB9172 /* fmod_codec.h */; };
-		F6DC6E951DDC75DE00BB9172 /* fmod_common.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E751DDC75DE00BB9172 /* fmod_common.h */; };
-		F6DC6E961DDC75DE00BB9172 /* fmod_common.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E751DDC75DE00BB9172 /* fmod_common.h */; };
-		F6DC6E971DDC75DE00BB9172 /* fmod_dsp.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E761DDC75DE00BB9172 /* fmod_dsp.h */; };
-		F6DC6E981DDC75DE00BB9172 /* fmod_dsp.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E761DDC75DE00BB9172 /* fmod_dsp.h */; };
-		F6DC6E991DDC75DE00BB9172 /* fmod_dsp_effects.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E771DDC75DE00BB9172 /* fmod_dsp_effects.h */; };
-		F6DC6E9A1DDC75DE00BB9172 /* fmod_dsp_effects.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E771DDC75DE00BB9172 /* fmod_dsp_effects.h */; };
-		F6DC6E9B1DDC75DE00BB9172 /* fmod_errors.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E781DDC75DE00BB9172 /* fmod_errors.h */; };
-		F6DC6E9C1DDC75DE00BB9172 /* fmod_errors.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E781DDC75DE00BB9172 /* fmod_errors.h */; };
-		F6DC6E9D1DDC75DE00BB9172 /* fmod_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E791DDC75DE00BB9172 /* fmod_ios.h */; };
-		F6DC6E9E1DDC75DE00BB9172 /* fmod_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E791DDC75DE00BB9172 /* fmod_ios.h */; };
-		F6DC6E9F1DDC75DE00BB9172 /* fmod_output.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E7A1DDC75DE00BB9172 /* fmod_output.h */; };
-		F6DC6EA01DDC75DE00BB9172 /* fmod_output.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E7A1DDC75DE00BB9172 /* fmod_output.h */; };
-		F6DC6EA11DDC75DE00BB9172 /* fmod_studio.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E7B1DDC75DE00BB9172 /* fmod_studio.h */; };
-		F6DC6EA21DDC75DE00BB9172 /* fmod_studio.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E7B1DDC75DE00BB9172 /* fmod_studio.h */; };
-		F6DC6EA31DDC75DE00BB9172 /* fmod_studio.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E7C1DDC75DE00BB9172 /* fmod_studio.hpp */; };
-		F6DC6EA41DDC75DE00BB9172 /* fmod_studio.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E7C1DDC75DE00BB9172 /* fmod_studio.hpp */; };
-		F6DC6EA51DDC75DE00BB9172 /* fmod_studio_common.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E7D1DDC75DE00BB9172 /* fmod_studio_common.h */; };
-		F6DC6EA61DDC75DE00BB9172 /* fmod_studio_common.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC6E7D1DDC75DE00BB9172 /* fmod_studio_common.h */; };
-		F6DC6EA71DDC75DE00BB9172 /* libfmod_appletvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E7F1DDC75DE00BB9172 /* libfmod_appletvos.a */; };
-		F6DC6EA81DDC75DE00BB9172 /* libfmod_appletvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E7F1DDC75DE00BB9172 /* libfmod_appletvos.a */; };
-		F6DC6EA91DDC75DE00BB9172 /* libfmod_appletvsimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E801DDC75DE00BB9172 /* libfmod_appletvsimulator.a */; };
-		F6DC6EAA1DDC75DE00BB9172 /* libfmod_appletvsimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E801DDC75DE00BB9172 /* libfmod_appletvsimulator.a */; };
-		F6DC6EAB1DDC75DE00BB9172 /* libfmod_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E811DDC75DE00BB9172 /* libfmod_iphoneos.a */; };
-		F6DC6EAC1DDC75DE00BB9172 /* libfmod_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E811DDC75DE00BB9172 /* libfmod_iphoneos.a */; };
-		F6DC6EAD1DDC75DE00BB9172 /* libfmod_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E821DDC75DE00BB9172 /* libfmod_iphonesimulator.a */; };
-		F6DC6EAE1DDC75DE00BB9172 /* libfmod_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E821DDC75DE00BB9172 /* libfmod_iphonesimulator.a */; };
-		F6DC6EAF1DDC75DE00BB9172 /* libfmodL_appletvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E831DDC75DE00BB9172 /* libfmodL_appletvos.a */; };
-		F6DC6EB01DDC75DE00BB9172 /* libfmodL_appletvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E831DDC75DE00BB9172 /* libfmodL_appletvos.a */; };
-		F6DC6EB11DDC75DE00BB9172 /* libfmodL_appletvsimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E841DDC75DE00BB9172 /* libfmodL_appletvsimulator.a */; };
-		F6DC6EB21DDC75DE00BB9172 /* libfmodL_appletvsimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E841DDC75DE00BB9172 /* libfmodL_appletvsimulator.a */; };
-		F6DC6EB31DDC75DE00BB9172 /* libfmodL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E851DDC75DE00BB9172 /* libfmodL_iphoneos.a */; };
-		F6DC6EB41DDC75DE00BB9172 /* libfmodL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E851DDC75DE00BB9172 /* libfmodL_iphoneos.a */; };
-		F6DC6EB51DDC75DE00BB9172 /* libfmodL_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E861DDC75DE00BB9172 /* libfmodL_iphonesimulator.a */; };
-		F6DC6EB61DDC75DE00BB9172 /* libfmodL_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E861DDC75DE00BB9172 /* libfmodL_iphonesimulator.a */; };
-		F6DC6EB71DDC75DE00BB9172 /* libfmodstudio_appletvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E871DDC75DE00BB9172 /* libfmodstudio_appletvos.a */; };
-		F6DC6EB81DDC75DE00BB9172 /* libfmodstudio_appletvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E871DDC75DE00BB9172 /* libfmodstudio_appletvos.a */; };
-		F6DC6EB91DDC75DE00BB9172 /* libfmodstudio_appletvsimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E881DDC75DE00BB9172 /* libfmodstudio_appletvsimulator.a */; };
-		F6DC6EBA1DDC75DE00BB9172 /* libfmodstudio_appletvsimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E881DDC75DE00BB9172 /* libfmodstudio_appletvsimulator.a */; };
-		F6DC6EBB1DDC75DE00BB9172 /* libfmodstudio_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E891DDC75DE00BB9172 /* libfmodstudio_iphoneos.a */; };
-		F6DC6EBC1DDC75DE00BB9172 /* libfmodstudio_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E891DDC75DE00BB9172 /* libfmodstudio_iphoneos.a */; };
-		F6DC6EBD1DDC75DE00BB9172 /* libfmodstudio_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E8A1DDC75DE00BB9172 /* libfmodstudio_iphonesimulator.a */; };
-		F6DC6EBE1DDC75DE00BB9172 /* libfmodstudio_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E8A1DDC75DE00BB9172 /* libfmodstudio_iphonesimulator.a */; };
-		F6DC6EBF1DDC75DE00BB9172 /* libfmodstudioL_appletvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E8B1DDC75DE00BB9172 /* libfmodstudioL_appletvos.a */; };
-		F6DC6EC01DDC75DE00BB9172 /* libfmodstudioL_appletvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E8B1DDC75DE00BB9172 /* libfmodstudioL_appletvos.a */; };
-		F6DC6EC11DDC75DE00BB9172 /* libfmodstudioL_appletvsimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E8C1DDC75DE00BB9172 /* libfmodstudioL_appletvsimulator.a */; };
-		F6DC6EC21DDC75DE00BB9172 /* libfmodstudioL_appletvsimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E8C1DDC75DE00BB9172 /* libfmodstudioL_appletvsimulator.a */; };
-		F6DC6EC31DDC75DE00BB9172 /* libfmodstudioL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E8D1DDC75DE00BB9172 /* libfmodstudioL_iphoneos.a */; };
-		F6DC6EC41DDC75DE00BB9172 /* libfmodstudioL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E8D1DDC75DE00BB9172 /* libfmodstudioL_iphoneos.a */; };
-		F6DC6EC51DDC75DE00BB9172 /* libfmodstudioL_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E8E1DDC75DE00BB9172 /* libfmodstudioL_iphonesimulator.a */; };
-		F6DC6EC61DDC75DE00BB9172 /* libfmodstudioL_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DC6E8E1DDC75DE00BB9172 /* libfmodstudioL_iphonesimulator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -5678,34 +5622,34 @@
 		ED74D7681A5B8A2600157FD4 /* CCPhysicsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPhysicsHelper.h; sourceTree = "<group>"; };
 		ED9C6A9218599AD8000A5232 /* CCNodeGrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = CCNodeGrid.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		ED9C6A9318599AD8000A5232 /* CCNodeGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNodeGrid.h; sourceTree = "<group>"; };
-		F6DC6E721DDC75DE00BB9172 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
-		F6DC6E731DDC75DE00BB9172 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod.hpp; sourceTree = "<group>"; };
-		F6DC6E741DDC75DE00BB9172 /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
-		F6DC6E751DDC75DE00BB9172 /* fmod_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_common.h; sourceTree = "<group>"; };
-		F6DC6E761DDC75DE00BB9172 /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
-		F6DC6E771DDC75DE00BB9172 /* fmod_dsp_effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp_effects.h; sourceTree = "<group>"; };
-		F6DC6E781DDC75DE00BB9172 /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
-		F6DC6E791DDC75DE00BB9172 /* fmod_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_ios.h; sourceTree = "<group>"; };
-		F6DC6E7A1DDC75DE00BB9172 /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
-		F6DC6E7B1DDC75DE00BB9172 /* fmod_studio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_studio.h; sourceTree = "<group>"; };
-		F6DC6E7C1DDC75DE00BB9172 /* fmod_studio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod_studio.hpp; sourceTree = "<group>"; };
-		F6DC6E7D1DDC75DE00BB9172 /* fmod_studio_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_studio_common.h; sourceTree = "<group>"; };
-		F6DC6E7F1DDC75DE00BB9172 /* libfmod_appletvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmod_appletvos.a; sourceTree = "<group>"; };
-		F6DC6E801DDC75DE00BB9172 /* libfmod_appletvsimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmod_appletvsimulator.a; sourceTree = "<group>"; };
-		F6DC6E811DDC75DE00BB9172 /* libfmod_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmod_iphoneos.a; sourceTree = "<group>"; };
-		F6DC6E821DDC75DE00BB9172 /* libfmod_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmod_iphonesimulator.a; sourceTree = "<group>"; };
-		F6DC6E831DDC75DE00BB9172 /* libfmodL_appletvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodL_appletvos.a; sourceTree = "<group>"; };
-		F6DC6E841DDC75DE00BB9172 /* libfmodL_appletvsimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodL_appletvsimulator.a; sourceTree = "<group>"; };
-		F6DC6E851DDC75DE00BB9172 /* libfmodL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodL_iphoneos.a; sourceTree = "<group>"; };
-		F6DC6E861DDC75DE00BB9172 /* libfmodL_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodL_iphonesimulator.a; sourceTree = "<group>"; };
-		F6DC6E871DDC75DE00BB9172 /* libfmodstudio_appletvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudio_appletvos.a; sourceTree = "<group>"; };
-		F6DC6E881DDC75DE00BB9172 /* libfmodstudio_appletvsimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudio_appletvsimulator.a; sourceTree = "<group>"; };
-		F6DC6E891DDC75DE00BB9172 /* libfmodstudio_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudio_iphoneos.a; sourceTree = "<group>"; };
-		F6DC6E8A1DDC75DE00BB9172 /* libfmodstudio_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudio_iphonesimulator.a; sourceTree = "<group>"; };
-		F6DC6E8B1DDC75DE00BB9172 /* libfmodstudioL_appletvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudioL_appletvos.a; sourceTree = "<group>"; };
-		F6DC6E8C1DDC75DE00BB9172 /* libfmodstudioL_appletvsimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudioL_appletvsimulator.a; sourceTree = "<group>"; };
-		F6DC6E8D1DDC75DE00BB9172 /* libfmodstudioL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudioL_iphoneos.a; sourceTree = "<group>"; };
-		F6DC6E8E1DDC75DE00BB9172 /* libfmodstudioL_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudioL_iphonesimulator.a; sourceTree = "<group>"; };
+		F69913C21E6ACD3700E668EA /* fmod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		F69913C31E6ACD3700E668EA /* fmod.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fmod.hpp; sourceTree = "<group>"; };
+		F69913C41E6ACD3700E668EA /* fmod_codec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		F69913C51E6ACD3700E668EA /* fmod_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_common.h; sourceTree = "<group>"; };
+		F69913C61E6ACD3700E668EA /* fmod_dsp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		F69913C71E6ACD3700E668EA /* fmod_dsp_effects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_dsp_effects.h; sourceTree = "<group>"; };
+		F69913C81E6ACD3700E668EA /* fmod_errors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		F69913C91E6ACD3700E668EA /* fmod_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_ios.h; sourceTree = "<group>"; };
+		F69913CA1E6ACD3700E668EA /* fmod_output.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		F69913CB1E6ACD3700E668EA /* fmod_studio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_studio.h; sourceTree = "<group>"; };
+		F69913CC1E6ACD3700E668EA /* fmod_studio.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fmod_studio.hpp; sourceTree = "<group>"; };
+		F69913CD1E6ACD3700E668EA /* fmod_studio_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_studio_common.h; sourceTree = "<group>"; };
+		F69913CF1E6ACD3700E668EA /* libfmod_appletvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmod_appletvos.a; sourceTree = "<group>"; };
+		F69913D01E6ACD3800E668EA /* libfmod_appletvsimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmod_appletvsimulator.a; sourceTree = "<group>"; };
+		F69913D11E6ACD3800E668EA /* libfmod_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmod_iphoneos.a; sourceTree = "<group>"; };
+		F69913D21E6ACD3800E668EA /* libfmod_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmod_iphonesimulator.a; sourceTree = "<group>"; };
+		F69913D31E6ACD3800E668EA /* libfmodL_appletvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodL_appletvos.a; sourceTree = "<group>"; };
+		F69913D41E6ACD3800E668EA /* libfmodL_appletvsimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodL_appletvsimulator.a; sourceTree = "<group>"; };
+		F69913D51E6ACD3800E668EA /* libfmodL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodL_iphoneos.a; sourceTree = "<group>"; };
+		F69913D61E6ACD3800E668EA /* libfmodL_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodL_iphonesimulator.a; sourceTree = "<group>"; };
+		F69913D71E6ACD3800E668EA /* libfmodstudio_appletvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudio_appletvos.a; sourceTree = "<group>"; };
+		F69913D81E6ACD3800E668EA /* libfmodstudio_appletvsimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudio_appletvsimulator.a; sourceTree = "<group>"; };
+		F69913D91E6ACD3800E668EA /* libfmodstudio_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudio_iphoneos.a; sourceTree = "<group>"; };
+		F69913DA1E6ACD3800E668EA /* libfmodstudio_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudio_iphonesimulator.a; sourceTree = "<group>"; };
+		F69913DB1E6ACD3800E668EA /* libfmodstudioL_appletvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudioL_appletvos.a; sourceTree = "<group>"; };
+		F69913DC1E6ACD3800E668EA /* libfmodstudioL_appletvsimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudioL_appletvsimulator.a; sourceTree = "<group>"; };
+		F69913DD1E6ACD3800E668EA /* libfmodstudioL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudioL_iphoneos.a; sourceTree = "<group>"; };
+		F69913DE1E6ACD3800E668EA /* libfmodstudioL_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodstudioL_iphonesimulator.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -5714,37 +5658,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				29031E0719BFE8D400EFA1DF /* libchipmunk.a in Frameworks */,
-				F6DC6EBD1DDC75DE00BB9172 /* libfmodstudio_iphonesimulator.a in Frameworks */,
 				15AE1C1A19AAE3C800C27E9E /* libwebsockets.a in Frameworks */,
 				292F1A6B1A5250F700E479F8 /* libssl.a in Frameworks */,
-				F6DC6EC51DDC75DE00BB9172 /* libfmodstudioL_iphonesimulator.a in Frameworks */,
 				292F1A631A52447100E479F8 /* libcrypto.a in Frameworks */,
-				F6DC6EB51DDC75DE00BB9172 /* libfmodL_iphonesimulator.a in Frameworks */,
 				B21770471977ED34009EE11B /* QuartzCore.framework in Frameworks */,
 				B21770451977ED14009EE11B /* Cocoa.framework in Frameworks */,
 				B21770421977ECF8009EE11B /* ApplicationServices.framework in Frameworks */,
-				F6DC6EAF1DDC75DE00BB9172 /* libfmodL_appletvos.a in Frameworks */,
-				F6DC6EAD1DDC75DE00BB9172 /* libfmod_iphonesimulator.a in Frameworks */,
-				F6DC6EB71DDC75DE00BB9172 /* libfmodstudio_appletvos.a in Frameworks */,
-				F6DC6EB31DDC75DE00BB9172 /* libfmodL_iphoneos.a in Frameworks */,
-				F6DC6EBF1DDC75DE00BB9172 /* libfmodstudioL_appletvos.a in Frameworks */,
-				F6DC6EAB1DDC75DE00BB9172 /* libfmod_iphoneos.a in Frameworks */,
 				B21770401977ECE6009EE11B /* OpenGL.framework in Frameworks */,
-				F6DC6EC11DDC75DE00BB9172 /* libfmodstudioL_appletvsimulator.a in Frameworks */,
-				F6DC6EB91DDC75DE00BB9172 /* libfmodstudio_appletvsimulator.a in Frameworks */,
 				B217703C1977ECB4009EE11B /* IOKit.framework in Frameworks */,
 				292F1A641A52447100E479F8 /* libcurl.a in Frameworks */,
 				1A570347180BD0850088DEC7 /* libglfw3.a in Frameworks */,
-				F6DC6EC31DDC75DE00BB9172 /* libfmodstudioL_iphoneos.a in Frameworks */,
-				F6DC6EB11DDC75DE00BB9172 /* libfmodL_appletvsimulator.a in Frameworks */,
 				1A570361180BD1080088DEC7 /* libpng.a in Frameworks */,
 				1A57037B180BD1C90088DEC7 /* libjpeg.a in Frameworks */,
 				1A5703A1180BD22C0088DEC7 /* libtiff.a in Frameworks */,
 				1A5703B8180BD2780088DEC7 /* libwebp.a in Frameworks */,
-				F6DC6EA71DDC75DE00BB9172 /* libfmod_appletvos.a in Frameworks */,
-				F6DC6EBB1DDC75DE00BB9172 /* libfmodstudio_iphoneos.a in Frameworks */,
 				1A57052B180BD31F0088DEC7 /* libfreetype.a in Frameworks */,
-				F6DC6EA91DDC75DE00BB9172 /* libfmod_appletvsimulator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5752,32 +5680,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6DC6EBC1DDC75DE00BB9172 /* libfmodstudio_iphoneos.a in Frameworks */,
-				F6DC6EBE1DDC75DE00BB9172 /* libfmodstudio_iphonesimulator.a in Frameworks */,
 				15AE1C1919AAE30900C27E9E /* libwebsockets.a in Frameworks */,
-				F6DC6EB01DDC75DE00BB9172 /* libfmodL_appletvos.a in Frameworks */,
-				F6DC6EC21DDC75DE00BB9172 /* libfmodstudioL_appletvsimulator.a in Frameworks */,
 				292F1A5E1A5151CE00E479F8 /* libssl.a in Frameworks */,
-				F6DC6EAC1DDC75DE00BB9172 /* libfmod_iphoneos.a in Frameworks */,
 				A07A4CAF1783777C0073F6A7 /* Foundation.framework in Frameworks */,
 				1A570364180BD1120088DEC7 /* libpng.a in Frameworks */,
-				F6DC6EA81DDC75DE00BB9172 /* libfmod_appletvos.a in Frameworks */,
-				F6DC6EC01DDC75DE00BB9172 /* libfmodstudioL_appletvos.a in Frameworks */,
-				F6DC6EAA1DDC75DE00BB9172 /* libfmod_appletvsimulator.a in Frameworks */,
-				F6DC6EC41DDC75DE00BB9172 /* libfmodstudioL_iphoneos.a in Frameworks */,
-				F6DC6EB41DDC75DE00BB9172 /* libfmodL_iphoneos.a in Frameworks */,
 				1A570378180BD1B40088DEC7 /* libjpeg.a in Frameworks */,
-				F6DC6EB61DDC75DE00BB9172 /* libfmodL_iphonesimulator.a in Frameworks */,
-				F6DC6EB81DDC75DE00BB9172 /* libfmodstudio_appletvos.a in Frameworks */,
 				1A5703A4180BD2350088DEC7 /* libtiff.a in Frameworks */,
-				F6DC6EC61DDC75DE00BB9172 /* libfmodstudioL_iphonesimulator.a in Frameworks */,
 				292F1A5D1A5151CE00E479F8 /* libcrypto.a in Frameworks */,
 				29031E0919BFE8DE00EFA1DF /* libchipmunk.a in Frameworks */,
 				1A5703BB180BD2800088DEC7 /* libwebp.a in Frameworks */,
 				1A57052E180BD3280088DEC7 /* libfreetype.a in Frameworks */,
-				F6DC6EB21DDC75DE00BB9172 /* libfmodL_appletvsimulator.a in Frameworks */,
-				F6DC6EBA1DDC75DE00BB9172 /* libfmodstudio_appletvsimulator.a in Frameworks */,
-				F6DC6EAE1DDC75DE00BB9172 /* libfmod_iphonesimulator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6332,7 +6244,7 @@
 		1A57033E180BD0490088DEC7 /* external */ = {
 			isa = PBXGroup;
 			children = (
-				F6DC6E701DDC75DE00BB9172 /* fmod */,
+				F69913C01E6ACD3700E668EA /* fmod */,
 				68B39B391B1C5C670084F72C /* clipper */,
 				B6DD2F731B04820C00E47F5F /* recast */,
 				B6CAB0021AF9A9EE00B9B856 /* bullet */,
@@ -9167,53 +9079,53 @@
 			path = ../base/allocator;
 			sourceTree = "<group>";
 		};
-		F6DC6E701DDC75DE00BB9172 /* fmod */ = {
+		F69913C01E6ACD3700E668EA /* fmod */ = {
 			isa = PBXGroup;
 			children = (
-				F6DC6E711DDC75DE00BB9172 /* include */,
-				F6DC6E7E1DDC75DE00BB9172 /* prebuild */,
+				F69913C11E6ACD3700E668EA /* include */,
+				F69913CE1E6ACD3700E668EA /* prebuild */,
 			);
 			path = fmod;
 			sourceTree = "<group>";
 		};
-		F6DC6E711DDC75DE00BB9172 /* include */ = {
+		F69913C11E6ACD3700E668EA /* include */ = {
 			isa = PBXGroup;
 			children = (
-				F6DC6E721DDC75DE00BB9172 /* fmod.h */,
-				F6DC6E731DDC75DE00BB9172 /* fmod.hpp */,
-				F6DC6E741DDC75DE00BB9172 /* fmod_codec.h */,
-				F6DC6E751DDC75DE00BB9172 /* fmod_common.h */,
-				F6DC6E761DDC75DE00BB9172 /* fmod_dsp.h */,
-				F6DC6E771DDC75DE00BB9172 /* fmod_dsp_effects.h */,
-				F6DC6E781DDC75DE00BB9172 /* fmod_errors.h */,
-				F6DC6E791DDC75DE00BB9172 /* fmod_ios.h */,
-				F6DC6E7A1DDC75DE00BB9172 /* fmod_output.h */,
-				F6DC6E7B1DDC75DE00BB9172 /* fmod_studio.h */,
-				F6DC6E7C1DDC75DE00BB9172 /* fmod_studio.hpp */,
-				F6DC6E7D1DDC75DE00BB9172 /* fmod_studio_common.h */,
+				F69913C21E6ACD3700E668EA /* fmod.h */,
+				F69913C31E6ACD3700E668EA /* fmod.hpp */,
+				F69913C41E6ACD3700E668EA /* fmod_codec.h */,
+				F69913C51E6ACD3700E668EA /* fmod_common.h */,
+				F69913C61E6ACD3700E668EA /* fmod_dsp.h */,
+				F69913C71E6ACD3700E668EA /* fmod_dsp_effects.h */,
+				F69913C81E6ACD3700E668EA /* fmod_errors.h */,
+				F69913C91E6ACD3700E668EA /* fmod_ios.h */,
+				F69913CA1E6ACD3700E668EA /* fmod_output.h */,
+				F69913CB1E6ACD3700E668EA /* fmod_studio.h */,
+				F69913CC1E6ACD3700E668EA /* fmod_studio.hpp */,
+				F69913CD1E6ACD3700E668EA /* fmod_studio_common.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		F6DC6E7E1DDC75DE00BB9172 /* prebuild */ = {
+		F69913CE1E6ACD3700E668EA /* prebuild */ = {
 			isa = PBXGroup;
 			children = (
-				F6DC6E7F1DDC75DE00BB9172 /* libfmod_appletvos.a */,
-				F6DC6E801DDC75DE00BB9172 /* libfmod_appletvsimulator.a */,
-				F6DC6E811DDC75DE00BB9172 /* libfmod_iphoneos.a */,
-				F6DC6E821DDC75DE00BB9172 /* libfmod_iphonesimulator.a */,
-				F6DC6E831DDC75DE00BB9172 /* libfmodL_appletvos.a */,
-				F6DC6E841DDC75DE00BB9172 /* libfmodL_appletvsimulator.a */,
-				F6DC6E851DDC75DE00BB9172 /* libfmodL_iphoneos.a */,
-				F6DC6E861DDC75DE00BB9172 /* libfmodL_iphonesimulator.a */,
-				F6DC6E871DDC75DE00BB9172 /* libfmodstudio_appletvos.a */,
-				F6DC6E881DDC75DE00BB9172 /* libfmodstudio_appletvsimulator.a */,
-				F6DC6E891DDC75DE00BB9172 /* libfmodstudio_iphoneos.a */,
-				F6DC6E8A1DDC75DE00BB9172 /* libfmodstudio_iphonesimulator.a */,
-				F6DC6E8B1DDC75DE00BB9172 /* libfmodstudioL_appletvos.a */,
-				F6DC6E8C1DDC75DE00BB9172 /* libfmodstudioL_appletvsimulator.a */,
-				F6DC6E8D1DDC75DE00BB9172 /* libfmodstudioL_iphoneos.a */,
-				F6DC6E8E1DDC75DE00BB9172 /* libfmodstudioL_iphonesimulator.a */,
+				F69913CF1E6ACD3700E668EA /* libfmod_appletvos.a */,
+				F69913D01E6ACD3800E668EA /* libfmod_appletvsimulator.a */,
+				F69913D11E6ACD3800E668EA /* libfmod_iphoneos.a */,
+				F69913D21E6ACD3800E668EA /* libfmod_iphonesimulator.a */,
+				F69913D31E6ACD3800E668EA /* libfmodL_appletvos.a */,
+				F69913D41E6ACD3800E668EA /* libfmodL_appletvsimulator.a */,
+				F69913D51E6ACD3800E668EA /* libfmodL_iphoneos.a */,
+				F69913D61E6ACD3800E668EA /* libfmodL_iphonesimulator.a */,
+				F69913D71E6ACD3800E668EA /* libfmodstudio_appletvos.a */,
+				F69913D81E6ACD3800E668EA /* libfmodstudio_appletvsimulator.a */,
+				F69913D91E6ACD3800E668EA /* libfmodstudio_iphoneos.a */,
+				F69913DA1E6ACD3800E668EA /* libfmodstudio_iphonesimulator.a */,
+				F69913DB1E6ACD3800E668EA /* libfmodstudioL_appletvos.a */,
+				F69913DC1E6ACD3800E668EA /* libfmodstudioL_appletvsimulator.a */,
+				F69913DD1E6ACD3800E668EA /* libfmodstudioL_iphoneos.a */,
+				F69913DE1E6ACD3800E668EA /* libfmodstudioL_iphonesimulator.a */,
 			);
 			path = prebuild;
 			sourceTree = "<group>";
@@ -9242,7 +9154,6 @@
 				B6CAB50F1AF9AA1A00B9B856 /* btList.h in Headers */,
 				D0FD03591A3B51AA00825BB5 /* CCAllocatorStrategyDefault.h in Headers */,
 				B665E2901AA80A6500DDB1C5 /* CCPUDynamicAttributeTranslator.h in Headers */,
-				F6DC6E931DDC75DE00BB9172 /* fmod_codec.h in Headers */,
 				B6CAB3531AF9AA1A00B9B856 /* gim_hash_table.h in Headers */,
 				50ABBE891925AB6F00A911A9 /* CCMap.h in Headers */,
 				B6CAB3131AF9AA1A00B9B856 /* btUniformScalingShape.h in Headers */,
@@ -9422,7 +9333,6 @@
 				50ABBEC31925AB6F00A911A9 /* CCVector.h in Headers */,
 				1A57008B180BC5A10088DEC7 /* CCActionProgressTimer.h in Headers */,
 				B6CAB2A51AF9AA1A00B9B856 /* btConvexHullShape.h in Headers */,
-				F6DC6E9B1DDC75DE00BB9172 /* fmod_errors.h in Headers */,
 				B665E2EC1AA80A6500DDB1C5 /* CCPULinearForceAffectorTranslator.h in Headers */,
 				382384151A259092002C4610 /* NodeReaderProtocol.h in Headers */,
 				B665E2DC1AA80A6500DDB1C5 /* CCPUJetAffectorTranslator.h in Headers */,
@@ -9476,7 +9386,6 @@
 				B6CAB4451AF9AA1A00B9B856 /* btParallelConstraintSolver.h in Headers */,
 				1A570110180BC8EE0088DEC7 /* CCDrawingPrimitives.h in Headers */,
 				B6CAB5091AF9AA1A00B9B856 /* btGrahamScan2dConvexHull.h in Headers */,
-				F6DC6E9F1DDC75DE00BB9172 /* fmod_output.h in Headers */,
 				50CB247D19D9C5A100687767 /* AudioPlayer.h in Headers */,
 				1A570114180BC8EE0088DEC7 /* CCDrawNode.h in Headers */,
 				B665E3141AA80A6500DDB1C5 /* CCPUObserverManager.h in Headers */,
@@ -9597,13 +9506,11 @@
 				B6CAB43D1AF9AA1A00B9B856 /* btGpuDefines.h in Headers */,
 				15AE181C19AAD2F700C27E9E /* CCBundle3D.h in Headers */,
 				15AE189919AAD33D00C27E9E /* CCMenuItemLoader.h in Headers */,
-				F6DC6E911DDC75DE00BB9172 /* fmod.hpp in Headers */,
 				B6CAB35D1AF9AA1A00B9B856 /* gim_radixsort.h in Headers */,
 				B6CAB4AB1AF9AA1A00B9B856 /* SpuCollisionObjectWrapper.h in Headers */,
 				15AE1B5E19AADA9900C27E9E /* UITextBMFont.h in Headers */,
 				B665E3601AA80A6500DDB1C5 /* CCPUOnRandomObserverTranslator.h in Headers */,
 				15AE18E719AAD35000C27E9E /* CCActionFrameEasing.h in Headers */,
-				F6DC6E971DDC75DE00BB9172 /* fmod_dsp.h in Headers */,
 				B6CAB3511AF9AA1A00B9B856 /* gim_geometry.h in Headers */,
 				1A5701E8180BCB8C0088DEC7 /* CCTransition.h in Headers */,
 				1A5701EC180BCB8C0088DEC7 /* CCTransitionPageTurn.h in Headers */,
@@ -9618,7 +9525,6 @@
 				B665E3001AA80A6500DDB1C5 /* CCPUMaterialTranslator.h in Headers */,
 				B665E33C1AA80A6500DDB1C5 /* CCPUOnEventFlagObserver.h in Headers */,
 				50ABBD401925AB0000A911A9 /* CCMath.h in Headers */,
-				F6DC6E8F1DDC75DE00BB9172 /* fmod.h in Headers */,
 				B29A7E1F19EE1B7700872B35 /* BoneData.h in Headers */,
 				B6CAB3191AF9AA1A00B9B856 /* btCompoundFromGimpact.h in Headers */,
 				15AE1A9319AAD40300C27E9E /* b2WheelJoint.h in Headers */,
@@ -9646,7 +9552,6 @@
 				B665E3B01AA80A6500DDB1C5 /* CCPURender.h in Headers */,
 				B6CAB2291AF9AA1A00B9B856 /* btCollisionDispatcher.h in Headers */,
 				1A01C6A618F58F7500EFE3A6 /* CCNotificationCenter.h in Headers */,
-				F6DC6E951DDC75DE00BB9172 /* fmod_common.h in Headers */,
 				B665E3A81AA80A6500DDB1C5 /* CCPURandomiser.h in Headers */,
 				1A57020A180BCBDF0088DEC7 /* CCMotionStreak.h in Headers */,
 				1A570212180BCBF40088DEC7 /* CCProgressTimer.h in Headers */,
@@ -9735,7 +9640,6 @@
 				299754F6193EC95400A54AC3 /* ObjectFactory.h in Headers */,
 				38ACD1FE1A27111900C3093D /* WidgetCallBackHandlerProtocol.h in Headers */,
 				50ABBD991925AB4100A911A9 /* CCGLProgramStateCache.h in Headers */,
-				F6DC6EA31DDC75DE00BB9172 /* fmod_studio.hpp in Headers */,
 				B665E41C1AA80A6600DDB1C5 /* CCPUTextureRotator.h in Headers */,
 				B6CAB2231AF9AA1A00B9B856 /* btCollisionConfiguration.h in Headers */,
 				B6CAB2191AF9AA1A00B9B856 /* btBox2dBox2dCollisionAlgorithm.h in Headers */,
@@ -9861,7 +9765,6 @@
 				B6CAB23F1AF9AA1A00B9B856 /* btConvex2dConvex2dAlgorithm.h in Headers */,
 				382384381A259126002C4610 /* ProjectNodeReader.h in Headers */,
 				15FB20991AE7C57D00C31518 /* sweep.h in Headers */,
-				F6DC6EA51DDC75DE00BB9172 /* fmod_studio_common.h in Headers */,
 				A045F6F11BA81821005076C7 /* GameNode3DReader.h in Headers */,
 				B665E3C41AA80A6600DDB1C5 /* CCPUScaleAffectorTranslator.h in Headers */,
 				B6CAB2631AF9AA1A00B9B856 /* btManifoldResult.h in Headers */,
@@ -9955,7 +9858,6 @@
 				B6CAB3F31AF9AA1A00B9B856 /* btSimpleDynamicsWorld.h in Headers */,
 				1A57035A180BD0B00088DEC7 /* unzip.h in Headers */,
 				B6CAB1FF1AF9AA1A00B9B856 /* btDispatcher.h in Headers */,
-				F6DC6E991DDC75DE00BB9172 /* fmod_dsp_effects.h in Headers */,
 				15AE188B19AAD33D00C27E9E /* CCControlLoader.h in Headers */,
 				B29A7DF719EE1B7700872B35 /* Attachment.h in Headers */,
 				B6DD2FA91B04825B00E47F5F /* DebugDraw.h in Headers */,
@@ -9970,7 +9872,6 @@
 				15AE186719AAD31D00C27E9E /* CDXMacOSXSupport.h in Headers */,
 				C503066A1B60B583001E6D43 /* CCBoneNode.h in Headers */,
 				B6CAB5131AF9AA1A00B9B856 /* btMatrixX.h in Headers */,
-				F6DC6E9D1DDC75DE00BB9172 /* fmod_ios.h in Headers */,
 				B6CAB4091AF9AA1A00B9B856 /* btMultiBodyJointLimitConstraint.h in Headers */,
 				B6CAB4B91AF9AA1A00B9B856 /* SpuFakeDma.h in Headers */,
 				B29A7DCD19EE1B7700872B35 /* Slot.h in Headers */,
@@ -10002,7 +9903,6 @@
 				15AE1A8519AAD40300C27E9E /* b2Joint.h in Headers */,
 				15AE1A8D19AAD40300C27E9E /* b2RevoluteJoint.h in Headers */,
 				50ABBE291925AB6F00A911A9 /* CCAutoreleasePool.h in Headers */,
-				F6DC6EA11DDC75DE00BB9172 /* fmod_studio.h in Headers */,
 				299CF1FD19A434BC00C378C1 /* ccRandom.h in Headers */,
 				B6CAB5451AF9AA1A00B9B856 /* MiniCLTask.h in Headers */,
 				15AE1A2F19AAD3D500C27E9E /* b2TimeOfImpact.h in Headers */,
@@ -10300,7 +10200,6 @@
 				B6CAB2A61AF9AA1A00B9B856 /* btConvexHullShape.h in Headers */,
 				50ABBE861925AB6F00A911A9 /* ccFPSImages.h in Headers */,
 				B6CAB2BE1AF9AA1A00B9B856 /* btCylinderShape.h in Headers */,
-				F6DC6EA61DDC75DE00BB9172 /* fmod_studio_common.h in Headers */,
 				B6CAB3F01AF9AA1A00B9B856 /* btRigidBody.h in Headers */,
 				15AE192619AAD35100C27E9E /* TriggerObj.h in Headers */,
 				B665E2E51AA80A6500DDB1C5 /* CCPULineAffectorTranslator.h in Headers */,
@@ -10641,7 +10540,6 @@
 				15AE196219AAD35100C27E9E /* CCSSceneReader.h in Headers */,
 				1A01C69518F57BE800EFE3A6 /* CCFloat.h in Headers */,
 				B665E2011AA80A6500DDB1C5 /* CCPUAlignAffector.h in Headers */,
-				F6DC6E981DDC75DE00BB9172 /* fmod_dsp.h in Headers */,
 				B6DD2FEC1B04825B00E47F5F /* DetourProximityGrid.h in Headers */,
 				B6CAB49C1AF9AA1A00B9B856 /* HeapManager.h in Headers */,
 				1A5701CA180BCB5A0088DEC7 /* CCLabelTextFormatter.h in Headers */,
@@ -10711,7 +10609,6 @@
 				B665E40D1AA80A6600DDB1C5 /* CCPUSphereSurfaceEmitterTranslator.h in Headers */,
 				B6CAB38A1AF9AA1A00B9B856 /* btPointCollector.h in Headers */,
 				B29A7DF819EE1B7700872B35 /* Attachment.h in Headers */,
-				F6DC6E901DDC75DE00BB9172 /* fmod.h in Headers */,
 				15AE197C19AAD35700C27E9E /* CCFrame.h in Headers */,
 				B665E31D1AA80A6500DDB1C5 /* CCPUOnClearObserver.h in Headers */,
 				15AE1AA219AAD40300C27E9E /* b2Body.h in Headers */,
@@ -10742,7 +10639,6 @@
 				38F526431A48363B000DB7F7 /* CSArmatureNode_generated.h in Headers */,
 				1A570217180BCBF40088DEC7 /* CCRenderTexture.h in Headers */,
 				B603F1AB1AC8EA0900A9579C /* CCTerrain.h in Headers */,
-				F6DC6EA21DDC75DE00BB9172 /* fmod_studio.h in Headers */,
 				B6CAB5461AF9AA1A00B9B856 /* MiniCLTask.h in Headers */,
 				15AE1ABB19AAD40300C27E9E /* b2EdgeAndPolygonContact.h in Headers */,
 				15AE198719AAD36400C27E9E /* WidgetReaderProtocol.h in Headers */,
@@ -10789,13 +10685,11 @@
 				15AE1A3B19AAD3D500C27E9E /* b2BroadPhase.h in Headers */,
 				15AE195619AAD35100C27E9E /* CCDisplayManager.h in Headers */,
 				15AE1B8719AADA9A00C27E9E /* UIButton.h in Headers */,
-				F6DC6E9E1DDC75DE00BB9172 /* fmod_ios.h in Headers */,
 				38F526411A48363B000DB7F7 /* ArmatureNodeReader.h in Headers */,
 				B6CAB3981AF9AA1A00B9B856 /* btSubSimplexConvexCast.h in Headers */,
 				50ABBE441925AB6F00A911A9 /* CCDirector.h in Headers */,
 				B6CAB3321AF9AA1A00B9B856 /* btGImpactQuantizedBvh.h in Headers */,
 				5034CA4A191D591100CE6051 /* ccShader_Label_df.frag in Headers */,
-				F6DC6E9A1DDC75DE00BB9172 /* fmod_dsp_effects.h in Headers */,
 				B6CAB1E41AF9AA1A00B9B856 /* btBulletDynamicsCommon.h in Headers */,
 				B6CAB2301AF9AA1A00B9B856 /* btCollisionObjectWrapper.h in Headers */,
 				B6CAB3B61AF9AA1A00B9B856 /* btGearConstraint.h in Headers */,
@@ -10893,7 +10787,6 @@
 				85505F071B60E3BA003F2CD4 /* CCSkeletonNode.h in Headers */,
 				15AE1AD519AAD40300C27E9E /* b2WeldJoint.h in Headers */,
 				15AE18B019AAD33D00C27E9E /* CCBKeyframe.h in Headers */,
-				F6DC6E961DDC75DE00BB9172 /* fmod_common.h in Headers */,
 				15AE18C419AAD33D00C27E9E /* CCLayerGradientLoader.h in Headers */,
 				B6CAB1EA1AF9AA1A00B9B856 /* btAxisSweep3.h in Headers */,
 				B665E3511AA80A6500DDB1C5 /* CCPUOnPositionObserverTranslator.h in Headers */,
@@ -10902,7 +10795,6 @@
 				B6CAB5381AF9AA1A00B9B856 /* btVector3.h in Headers */,
 				A045F6D91BA81577005076C7 /* CCTextureCube.h in Headers */,
 				B6CAB4DC1AF9AA1A00B9B856 /* SpuMinkowskiPenetrationDepthSolver.h in Headers */,
-				F6DC6E941DDC75DE00BB9172 /* fmod_codec.h in Headers */,
 				B665E2F51AA80A6500DDB1C5 /* CCPULineEmitterTranslator.h in Headers */,
 				1A087AEB1860400400196EF5 /* edtaa3func.h in Headers */,
 				B665E3751AA80A6500DDB1C5 /* CCPUParticleFollower.h in Headers */,
@@ -10984,7 +10876,6 @@
 				15AE1AB519AAD40300C27E9E /* b2Contact.h in Headers */,
 				B665E23D1AA80A6500DDB1C5 /* CCPUCircleEmitter.h in Headers */,
 				50ABBEA61925AB6F00A911A9 /* CCScriptSupport.h in Headers */,
-				F6DC6E921DDC75DE00BB9172 /* fmod.hpp in Headers */,
 				B6CAB33C1AF9AA1A00B9B856 /* btTriangleShapeEx.h in Headers */,
 				46C02E0A18E91123004B7456 /* xxhash.h in Headers */,
 				B6CAB39E1AF9AA1A00B9B856 /* btCharacterControllerInterface.h in Headers */,
@@ -11007,7 +10898,6 @@
 				B6CAB3D81AF9AA1A00B9B856 /* btSolve2LinearConstraint.h in Headers */,
 				50ABBDB01925AB4100A911A9 /* CCRenderer.h in Headers */,
 				B6CAB3421AF9AA1A00B9B856 /* gim_bitset.h in Headers */,
-				F6DC6E9C1DDC75DE00BB9172 /* fmod_errors.h in Headers */,
 				B29594B71926D5EC003EEF37 /* CCMeshCommand.h in Headers */,
 				3E6176771960F89B00DE83F5 /* CCEventListenerController.h in Headers */,
 				50ABBD861925AB4100A911A9 /* CCBatchCommand.h in Headers */,
@@ -11097,7 +10987,6 @@
 				D0FD035A1A3B51AA00825BB5 /* CCAllocatorStrategyDefault.h in Headers */,
 				50ABBD471925AB0000A911A9 /* CCVertex.h in Headers */,
 				B6CAB4D81AF9AA1A00B9B856 /* SpuLocalSupport.h in Headers */,
-				F6DC6EA01DDC75DE00BB9172 /* fmod_output.h in Headers */,
 				B6CAB2921AF9AA1A00B9B856 /* btCollisionShape.h in Headers */,
 				B6CAB2681AF9AA1A00B9B856 /* btSimulationIslandManager.h in Headers */,
 				B665E3251AA80A6500DDB1C5 /* CCPUOnCollisionObserver.h in Headers */,
@@ -11224,7 +11113,6 @@
 				B29A7DF019EE1B7700872B35 /* SkeletonBounds.h in Headers */,
 				B6CAB3361AF9AA1A00B9B856 /* btGImpactShape.h in Headers */,
 				15AE1BE919AAE01E00C27E9E /* CCControl.h in Headers */,
-				F6DC6EA41DDC75DE00BB9172 /* fmod_studio.hpp in Headers */,
 				15AE193719AAD35100C27E9E /* CCArmature.h in Headers */,
 				B63990CF1A490AFE00B07923 /* CCAsyncTaskPool.h in Headers */,
 				15AE1BC319AADFFB00C27E9E /* cocos-ext.h in Headers */,
@@ -13089,7 +12977,6 @@
 					"\"$(SRCROOT)/../external/chipmunk/prebuilt/mac\"",
 					"\"$(SRCROOT)/../external/curl/prebuilt/mac\"",
 					"\"$(SRCROOT)/../external/zlib/prebuilt/mac\"",
-					"$(PROJECT_DIR)/fmod/prebuild",
 				);
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "-llibsql3";
@@ -13128,7 +13015,6 @@
 					"\"$(SRCROOT)/../external/chipmunk/prebuilt/mac\"",
 					"\"$(SRCROOT)/../external/curl/prebuilt/mac\"",
 					"\"$(SRCROOT)/../external/zlib/prebuilt/mac\"",
-					"$(PROJECT_DIR)/fmod/prebuild",
 				);
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "-llibsql3";
@@ -13159,7 +13045,6 @@
 					"\"$(SRCROOT)/../external/curl/prebuilt/ios\"",
 					"\"$(SRCROOT)/../external/websockets/prebuilt/ios\"",
 					"\"$(SRCROOT)/../external/chipmunk/prebuilt/ios\"",
-					"$(PROJECT_DIR)/fmod/prebuild",
 				);
 				OTHER_LDFLAGS = "-llibsql3";
 				SDKROOT = iphoneos;
@@ -13193,7 +13078,6 @@
 					"\"$(SRCROOT)/../external/curl/prebuilt/ios\"",
 					"\"$(SRCROOT)/../external/websockets/prebuilt/ios\"",
 					"\"$(SRCROOT)/../external/chipmunk/prebuilt/ios\"",
-					"$(PROJECT_DIR)/fmod/prebuild",
 				);
 				OTHER_LDFLAGS = "-llibsql3";
 				SDKROOT = iphoneos;

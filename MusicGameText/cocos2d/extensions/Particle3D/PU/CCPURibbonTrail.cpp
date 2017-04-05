@@ -37,7 +37,8 @@
 
 NS_CC_BEGIN
 
-PURibbonTrail::PURibbonTrail(const std::string& name, const std::string &texFile, size_t maxElements, size_t numberOfChains, bool useTextureCoords, bool useColours)
+PURibbonTrail::PURibbonTrail(const std::string& name, const std::string &texFile, size_t maxElements, 
+    size_t numberOfChains, bool useTextureCoords, bool useColours)
     :PUBillboardChain(name, texFile, maxElements, 0, useTextureCoords, useColours, true),
     _parentNode(nullptr),
     _needTimeUpdate(false)

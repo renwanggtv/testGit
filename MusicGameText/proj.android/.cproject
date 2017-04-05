@@ -171,14 +171,14 @@
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="MusicGameText.null.31159645" name="MusicGameText"/>
+		<project id="HelloWorldDemo.null.31159645" name="HelloWorldDemo"/>
 	</storageModule>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Default">
-			<resource resourceType="PROJECT" workspacePath="/MusicGameText"/>
+			<resource resourceType="PROJECT" workspacePath="/HelloWorldDemo"/>
 		</configuration>
 		<configuration configurationName="Debug">
-			<resource resourceType="PROJECT" workspacePath="/MusicGameText"/>
+			<resource resourceType="PROJECT" workspacePath="/HelloWorldDemo"/>
 		</configuration>
 	</storageModule>
 </cproject>

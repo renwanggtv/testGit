@@ -75,15 +75,6 @@ enum class LanguageType
 // END of platform group
 /// @}
 
-enum BeatObject : int
-{
-    Invalid  = 0x0000,
-    Block    = 0x0001,
-    Strip    = 0x0002,
-    SameTime = 0x0004,
-    Star     = 0x0008
-};
-
 NS_CC_END
 
 /// @endcond
